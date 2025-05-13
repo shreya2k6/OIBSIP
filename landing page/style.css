@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #111;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: url('https://t4.ftcdn.net/jpg/04/45/70/71/360_F_445707107_elptpcI7pUDPa9kMdnX9e3506QdHfo7r.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  header * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header h1 {
+    font-size: 3.5rem;
+    margin: 0 0 20px;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background: #00b894;
+    color: white;
+    padding: 14px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #019874;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .feature {
+    background: white;
+    padding: 30px;
+    max-width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .feature:hover {
+    transform: translateY(-8px);
+  }
+  
+  .feature img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    color: #00b894;
+    margin-bottom: 10px;
+  }
+  
+  .map-section {
+    background: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .map-section img {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+    color: #0d0c0c;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #00b894;
+  }
+  
